@@ -1,0 +1,2 @@
+{"type":"approval","id":"ok1","ts":10,"cwd":"/repo","call":{"tool":"shell","args":{"command":"pytest -q"}}}
+{"type":"tool_call","tool":"shell","approval":"ok1","ts":12,"args":{"command":"pytest -q"}}

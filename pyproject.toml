@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "approvebind"
+version = "0.1.0"
+description = "Check that what an AI agent executed is exactly what a human or guard approved"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Md Rashedul Hasan"}]
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+approvebind = "approvebind.cli:main"
+
+[tool.setuptools]
+packages = ["approvebind"]
